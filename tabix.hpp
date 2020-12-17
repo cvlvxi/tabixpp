@@ -28,7 +28,7 @@ public:
     vector<string> chroms;
 
     Tabix(void);
-    Tabix(string& file);
+    Tabix(const string& file);
     ~Tabix(void);
 
     const kstring_t * getKstringPtr();

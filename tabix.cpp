@@ -2,7 +2,7 @@
 
 Tabix::Tabix(void) { }
 
-Tabix::Tabix(string& file) {
+Tabix::Tabix(const string& file) {
     has_jumped = false;
     filename = file;
     str.l = 0;
